@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    background-color: rgb(17, 52, 82);
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.logo{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    margin-left: 40px;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+.menu-icon{
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+.buttons .btn1{
+    padding: 10px;
+    background-color: rgb(17, 52, 82);
+    color: white;
+    border: 1px solid;
+    margin-right: 50px;
+}
+div.home img{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-size: cover;
+    width: 1325px;
+    height: 700px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.home .para{
+    position: absolute;
+    background-color: rgba(12, 11, 11, 0.5);
+    color: white;
+    margin-top: -470px;
+    margin-left: 385px;
+    width: 650px;
+    height: 260px;
+    text-align: center;
+    line-height: 1.3;
+    font-weight: bold;
+    padding: 25px;
+}
+.button2 .btn2{
+    background-color: yellow;
+    color: black;
+    padding: 13px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: -1px;
+}
+.about{
+    text-align: center;
+    color: #333;
+    line-height: 1.3;
+    margin-top: 10px;
+}
+.about h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.about p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.about .images{
+    margin-top: 5px;
+}
+.images .img1{
+    width: 300px;
+    border: 3px solid white;
+}
+.images .img3{
+    width: 300px;
+    border: 3px solid white;
+}
+.images .img2{
+    border: 3px solid white;
+}
+.about .paras p{
+    display: inline;
+    letter-spacing: 10px;
+    color: white;
+}
+.button3 .btn3{
+    padding: 14px;
+    width: 159px;
+    background-color: yellow;
+    border: 1px solid;
+    border-radius: 6px;
+    font-size: 17px;
+}
+.products{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 250px;
+    background-color: rgb(17, 52, 82);
+    margin-top: -150px;
+}
+.paragraph{
+    margin-top: -80px;
+    margin-left: 510px;
+    color: white;
+}
+.paragraph .p1{
+    color: white;
+    margin-left: 85px;
+    margin-top: 20px;
+}
+.services img{
+    margin-top: 60px;
+    margin-left: 150px;
+    width: 400px;
+    height: 300px;
+}
+.services .head{
+    background-color:rgba(12, 11, 11, 0.5);
+    width: 180px;
+    margin-left: 465px;
+    margin-top: -304px;
+}
+.services .head h1{
+    color: white;
+    padding: 4px;
+}
+.paragraph1{
+    margin-left: 610px;
+    margin-top: 45px;
+    line-height: 1.2;
+}
+.button4 .btn4{
+    margin-left: 610px;
+    margin-top: 25px;
+    background-color: yellow;
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 13px;
+    width: 150px;
+    font-size: 17px;
+}
+div.blog img{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-size: cover;
+    margin-top: 95px;
+    width: 1325px;
+    height: 700px;
+    position: relative;
+}
+.blog .paragraph2{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 380px;
+    width: 700px;
+    height: 190px;
+    background-color: rgba(12, 11, 11, 0.3);
+    line-height: 1.3;
+    font-weight: bold;
+    padding: 15px;
+}
+.paragraph2 p{
+    color: white;
+    text-align: center;
+}
+.button5 .btn5{
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 12px;
+    background-color: yellow;
+    font-size: 17px;
+    margin-left: 254px;
+}
+.footer{
+    height: 280px;
+    background-color: #263238;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: -10px;
+}
+hr{
+    width: 350px;
+    margin-left: 500px;
+}
